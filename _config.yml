@@ -57,29 +57,62 @@ about_content: | # this will include new lines to allow paragraphs
   Background in Medical Laboratory Science, including experience at the Provincial Laboratory of Public Health in Molecular Diagnostics and Acute Clinical Microbiology, as well as serving as lab manager for Dr. Ian Lewis' research group at the University of Calgary, which specializes in metabolomics and host-pathogen interactions in infectious disease.
 
 content:
-  - title: Projects
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of Alberta, Edmonton AB
+        sub_title: M.Sc. Biological Sciences
+        caption: 2023 - 2026
+        quote: >
+          Bioinformatics research, supervised by Dr. David Wishart
+        description: |
+          Thesis: "Bioinformatic Approaches for Genomic and Community-Scale Microbiology." Co-developed BASys2 and authored a published review of microbiome bioinformatics tools. Major contributor to WEGAN, minor contributor to MiMeDB 2.0. Received the Graduate Student Teaching Award (2024) as TA for MICRB 264 Lab.
+      - layout: left
+        title: University of Alberta, Edmonton AB
+        sub_title: B.Sc. Medical Laboratory Science, with Distinction
+        caption: 2011 - 2015
+        description: |
+          Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
+  - title: Publications
     layout: list
     content:
       - layout: left
         border: weak
-        title: BASys2
+        title: Bioinformatic tools for microbiome analysis - from raw sequences to biological insights
+        link: https://doi.org/10.3389/fmicb.2026.1913362
+        link_text: View Publication
         quote: >
-          Next-generation bacterial genome annotation web server
+          Frontiers in Microbiology, 2026
         description: |
-          Co-developed a next-gen bacterial genome annotation web server delivering deeper annotation up to 8,000x faster than its predecessor.
+          **Jenna Poelzer**, David S. Wishart
       - layout: left
         border: weak
-        title: WEGAN
+        title: "BASys2: a next-generation bacterial genome annotation system"
+        link: https://doi.org/10.1093/nar/gkaf360
+        link_text: View Publication
         quote: >
-          Web-based community ecology platform
+          Nucleic Acids Research, 2025
         description: |
-          Major contributor to a web-based platform for community-scale microbiome ecology analysis (diversity & ordination methods, data visualization).
+          **Jenna Poelzer**, Scott Han, Sukanta Saha, Eponine Oler, Ray Kruger, Mark Berjanskii, Scott MacKay, David S. Wishart
       - layout: left
-        title: MiMeDB 2.0
+        border: weak
+        title: "WEGAN: a web-based community ecology platform"
+        link: https://doi.org/10.3389/fevo.2025.1604480
+        link_text: View Publication
         quote: >
-          Microbial metabolomics database
+          Frontiers in Ecology and Evolution, 2025
         description: |
-          Minor contributor to an update of the microbial metabolomics database.
+          Gina P. Sykes, Louisa Normington, **Jenna Poelzer**, Shiyang Zhao, Dana Allen, Samuel Stuart, Eponine Oler, Komal Jot, Vasuk Gautam, Xin Zhao, Jianguo Xia, Glen C. Jickling, David S. Wishart
+      - layout: left
+        border: weak
+        title: "MiMeDB 2.0: the Human Microbial Metabolome Database for 2026"
+        link: https://doi.org/10.1093/nar/gkaf1272
+        link_text: View Publication
+        quote: >
+          Nucleic Acids Research, 2026
+        description: |
+          Ray Kruger, Eponine Oler, Sukanta Saha, **Jenna Poelzer**, Scott Han, Mark Peter Punsalan, Brittany Green, Fahrin Bushra, Megane Kyes, Fehintola Disu, Julia Wakoli, Robyn Woudstra, Elykah Tejol, Omolola Fakutan, Fei Wang, Brian L. Lee, Tanvir Sajed, Siyang Tian, Claudia Torres-Calzada, Mark Berjanskii, Scott MacKay, Naama Karu, Rima Kaddurah-Daouk, David S. Wishart
   # - title: Experience
   #   layout: list
   #   content:
@@ -109,23 +142,6 @@ content:
   #       caption: December 2015 - January 2019
   #       description: |
   #         Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, respiratory/influenza panels); resulted reports in Cerner Millennium.
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: University of Alberta, Edmonton AB
-        sub_title: M.Sc. Biological Sciences
-        caption: 2023 - 2026
-        quote: >
-          Bioinformatics research, supervised by Dr. David Wishart
-        description: |
-          Thesis: "Bioinformatic Approaches for Genomic and Community-Scale Microbiology." Co-developed BASys2 and authored a published review of microbiome bioinformatics tools. Major contributor to WEGAN, minor contributor to MiMeDB 2.0. Received the Graduate Student Teaching Award (2024) as TA for MICRB 264 Lab.
-      - layout: left
-        title: University of Alberta, Edmonton AB
-        sub_title: B.Sc. Medical Laboratory Science, with Distinction
-        caption: 2011 - 2015
-        description: |
-          Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
