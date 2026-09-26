@@ -80,35 +80,35 @@ content:
           Microbial metabolomics database
         description: |
           Minor contributor to an update of the microbial metabolomics database.
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Dr. Ian Lewis Lab, University of Calgary
-        sub_title: Laboratory Manager
-        caption: January 2019 - September 2020
-        quote: >
-          Metabolomics & host-pathogen interactions research
-        description: |
-          Assisted with bacterial culture and proteomic, genomic, and metabolomic sample extractions on clinical bloodborne pathogen specimens, including a novel COVID-19 extraction pipeline. Wrote and maintained SOPs and programmed the Hamilton NIMBUS liquid-handling robot. Served as Biosafety Officer.
-      - layout: left
-        title: Alberta Precision Laboratories (ProvLab North)
-        sub_title: Medical Laboratory Technologist I - Acute Bacteriology
-        caption: August 2021 - July 2022
-        description: |
-          Performed blood culture analysis for suspected bloodstream infections, including organism identification and antimicrobial susceptibility testing; resulted reports in Epic.
-      - layout: left
-        title: Alberta Precision Laboratories (ProvLab South)
-        sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
-        caption: September 2020 - August 2021
-        description: |
-          Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, meningococcal, respiratory/influenza panels); resulted reports in Cerner Millennium. Served as Responsible Technologist on off-shifts during peak COVID-19 demand.
-      - layout: right
-        title: Alberta Health Services (ProvLab North)
-        sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
-        caption: December 2015 - January 2019
-        description: |
-          Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, respiratory/influenza panels); resulted reports in Cerner Millennium.
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: Dr. Ian Lewis Lab, University of Calgary
+  #       sub_title: Laboratory Manager
+  #       caption: January 2019 - September 2020
+  #       quote: >
+  #         Metabolomics & host-pathogen interactions research
+  #       description: |
+  #         Assisted with bacterial culture and proteomic, genomic, and metabolomic sample extractions on clinical bloodborne pathogen specimens, including a novel COVID-19 extraction pipeline. Wrote and maintained SOPs and programmed the Hamilton NIMBUS liquid-handling robot. Served as Biosafety Officer.
+  #     - layout: left
+  #       title: Alberta Precision Laboratories (ProvLab North)
+  #       sub_title: Medical Laboratory Technologist I - Acute Bacteriology
+  #       caption: August 2021 - July 2022
+  #       description: |
+  #         Performed blood culture analysis for suspected bloodstream infections, including organism identification and antimicrobial susceptibility testing; resulted reports in Epic.
+  #     - layout: left
+  #       title: Alberta Precision Laboratories (ProvLab South)
+  #       sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
+  #       caption: September 2020 - August 2021
+  #       description: |
+  #         Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, meningococcal, respiratory/influenza panels); resulted reports in Cerner Millennium. Served as Responsible Technologist on off-shifts during peak COVID-19 demand.
+  #     - layout: left
+  #       title: Alberta Health Services (ProvLab North)
+  #       sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
+  #       caption: December 2015 - January 2019
+  #       description: |
+  #         Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, respiratory/influenza panels); resulted reports in Cerner Millennium.
   - title: Education
     layout: list
     content:
@@ -126,11 +126,9 @@ content:
         caption: 2011 - 2015
         description: |
           Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Technical Skills**
-
       Programming & Analysis: R, Java, JavaScript, HTML, CSS, command-line/Bash, Git, Docker
 
       Bioinformatics: genome annotation pipelines, full stack web-tool development, microbiome/community-scale analysis, diversity & ordination methods, data visualization
