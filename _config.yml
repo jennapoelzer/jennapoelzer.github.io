@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: jennapoelzer/jennapoelzer.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -57,55 +57,85 @@ about_content: | # this will include new lines to allow paragraphs
   Background in Medical Laboratory Science, including experience at the Provincial Laboratory of Public Health in Molecular Diagnostics and Acute Clinical Microbiology, as well as serving as lab manager for Dr. Ian Lewis' research group at the University of Calgary, which specializes in metabolomics and host-pathogen interactions in infectious disease.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: BASys2
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Next-generation bacterial genome annotation web server
+        description: |
+          Co-developed a next-gen bacterial genome annotation web server delivering deeper annotation up to 8,000x faster than its predecessor.
+      - layout: left
+        border: weak
+        title: WEGAN
+        quote: >
+          Web-based community ecology platform
+        description: |
+          Major contributor to a web-based platform for community-scale microbiome ecology analysis (diversity & ordination methods, data visualization).
+      - layout: left
+        title: MiMeDB 2.0
+        quote: >
+          Microbial metabolomics database
+        description: |
+          Minor contributor to an update of the microbial metabolomics database.
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Dr. Ian Lewis Lab, University of Calgary
+        sub_title: Laboratory Manager
+        caption: January 2019 - September 2020
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Metabolomics & host-pathogen interactions research
+        description: |
+          Assisted with bacterial culture and proteomic, genomic, and metabolomic sample extractions on clinical bloodborne pathogen specimens, including a novel COVID-19 extraction pipeline. Wrote and maintained SOPs and programmed the Hamilton NIMBUS liquid-handling robot. Served as Biosafety Officer.
+      - layout: left
+        title: Alberta Precision Laboratories (ProvLab North)
+        sub_title: Medical Laboratory Technologist I - Acute Bacteriology
+        caption: August 2021 - July 2022
+        description: |
+          Performed blood culture analysis for suspected bloodstream infections, including organism identification and antimicrobial susceptibility testing; resulted reports in Epic.
+      - layout: left
+        title: Alberta Precision Laboratories (ProvLab South)
+        sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
+        caption: September 2020 - August 2021
+        description: |
+          Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, meningococcal, respiratory/influenza panels); resulted reports in Cerner Millennium. Served as Responsible Technologist on off-shifts during peak COVID-19 demand.
+      - layout: right
+        title: Alberta Health Services (ProvLab North)
+        sub_title: Medical Laboratory Technologist I - Molecular Diagnostics
+        caption: December 2015 - January 2019
+        description: |
+          Performed PCR testing (SARS-CoV-2, CSF, transplant, GI, pertussis, respiratory/influenza panels); resulted reports in Cerner Millennium.
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: University of Alberta, Edmonton AB
+        sub_title: M.Sc. Biological Sciences
+        caption: 2023 - 2026
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Bioinformatics research, supervised by Dr. David Wishart
+        description: |
+          Thesis: "Bioinformatic Approaches for Genomic and Community-Scale Microbiology." Co-developed BASys2 and authored a published review of microbiome bioinformatics tools. Major contributor to WEGAN, minor contributor to MiMeDB 2.0. Received the Graduate Student Teaching Award (2024) as TA for MICRB 264 Lab.
+      - layout: left
+        title: University of Alberta, Edmonton AB
+        sub_title: B.Sc. Medical Laboratory Science, with Distinction
+        caption: 2011 - 2015
+        description: |
+          Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      **Technical Skills**
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Programming & Analysis: R, Java, JavaScript, HTML, CSS, command-line/Bash, Git, Docker
+
+      Bioinformatics: genome annotation pipelines, full stack web-tool development, microbiome/community-scale analysis, diversity & ordination methods, data visualization
+
+      Laboratory & Quality Systems: PCR diagnostics, biosafety, SOP development, QC, automated liquid-handling (Hamilton NIMBUS), LIS: Epic, Cerner Millennium & Sunquest
 
 # Footer
 footer_show_references: true
@@ -113,7 +143,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
