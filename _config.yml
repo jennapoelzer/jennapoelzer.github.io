@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Jenna Poelzer
 title: Bioinformatician
-email: jvpoelzer[at]gmail[dot]com
+email: jvpoelzer@gmail.com
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -73,9 +73,8 @@ content:
         title: B.Sc. Medical Laboratory Science, with Distinction
         sub_title: University of Alberta, Edmonton AB
         caption: 2011 - 2015
-        # description: |
-        #   Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
-  - title: Publications
+        description: |
+          Trained in clinical laboratory science across hematology, microbiology, biochemistry, and transfusion medicine, with a focus on diagnostic accuracy and quality systems. Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation work, supervised by Dr. Carmen Charlton.  - title: Publications
     layout: list
     content:
       - layout: top-middle
