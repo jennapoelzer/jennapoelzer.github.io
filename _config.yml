@@ -61,23 +61,24 @@ content:
     layout: list
     content:
       - layout: left
-        title: University of Alberta, Edmonton AB
-        sub_title: M.Sc. Biological Sciences
+        border: weak
+        title: M.Sc. Biological Sciences
+        sub_title: University of Alberta, Edmonton AB
         caption: 2023 - 2026
         quote: >
           Bioinformatics research, supervised by Dr. David Wishart
         description: |
           Thesis: "Bioinformatic Approaches for Genomic and Community-Scale Microbiology." Co-developed BASys2 and authored a published review of microbiome bioinformatics tools. Major contributor to WEGAN, minor contributor to MiMeDB 2.0. Received the Graduate Student Teaching Award (2024) as TA for MICRB 264 Lab.
       - layout: left
-        title: University of Alberta, Edmonton AB
-        sub_title: B.Sc. Medical Laboratory Science, with Distinction
+        title: B.Sc. Medical Laboratory Science, with Distinction
+        sub_title: University of Alberta, Edmonton AB
         caption: 2011 - 2015
-        description: |
-          Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
+        # description: |
+        #   Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation, supervised by Dr. Carmen Charlton.
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         border: weak
         title: Bioinformatic tools for microbiome analysis - from raw sequences to biological insights
         link: https://doi.org/10.3389/fmicb.2026.1913362
@@ -86,7 +87,7 @@ content:
           Frontiers in Microbiology, 2026
         description: |
           **Jenna Poelzer**, David S. Wishart
-      - layout: left
+      - layout: top-middle
         border: weak
         title: "BASys2: a next-generation bacterial genome annotation system"
         link: https://doi.org/10.1093/nar/gkaf360
@@ -95,7 +96,7 @@ content:
           Nucleic Acids Research, 2025
         description: |
           **Jenna Poelzer**, Scott Han, Sukanta Saha, Eponine Oler, Ray Kruger, Mark Berjanskii, Scott MacKay, David S. Wishart
-      - layout: left
+      - layout: top-middle
         border: weak
         title: "WEGAN: a web-based community ecology platform"
         link: https://doi.org/10.3389/fevo.2025.1604480
@@ -104,8 +105,7 @@ content:
           Frontiers in Ecology and Evolution, 2025
         description: |
           Gina P. Sykes, Louisa Normington, **Jenna Poelzer**, Shiyang Zhao, Dana Allen, Samuel Stuart, Eponine Oler, Komal Jot, Vasuk Gautam, Xin Zhao, Jianguo Xia, Glen C. Jickling, David S. Wishart
-      - layout: left
-        border: weak
+      - layout: top-middle
         title: "MiMeDB 2.0: the Human Microbial Metabolome Database for 2026"
         link: https://doi.org/10.1093/nar/gkaf1272
         link_text: View Publication
@@ -145,11 +145,19 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Programming & Analysis: R, Java, JavaScript, HTML, CSS, command-line/Bash, Git, Docker
+      **Programming & Analysis: **
+      <mark>R</mark>, 
+      <mark>Java</mark>,
+      <mark>JavaScript</mark>,
+      <mark>HTML</mark>,
+      <mark>CSS</mark>,
+      <mark>command-line/Bash</mark>,
+      <mark>Git</mark>,
+      <mark>Docker</mark>
+      
+      **Bioinformatics:** genome annotation pipelines, full stack web-tool development, microbiome/community-scale analysis, diversity & ordination methods, data visualization
 
-      Bioinformatics: genome annotation pipelines, full stack web-tool development, microbiome/community-scale analysis, diversity & ordination methods, data visualization
-
-      Laboratory & Quality Systems: PCR diagnostics, biosafety, SOP development, QC, automated liquid-handling (Hamilton NIMBUS), LIS: Epic, Cerner Millennium & Sunquest
+      **Laboratory & Quality Systems:** PCR diagnostics, biosafety, SOP development, QC, automated liquid-handling (Hamilton NIMBUS), LIS: Epic, Cerner Millennium & Sunquest
 
 # Footer
 footer_show_references: true
