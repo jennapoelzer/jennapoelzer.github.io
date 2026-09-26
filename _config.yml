@@ -74,7 +74,8 @@ content:
         sub_title: University of Alberta, Edmonton AB
         caption: 2011 - 2015
         description: |
-          Trained in clinical laboratory science across hematology, microbiology, biochemistry, and transfusion medicine, with a focus on diagnostic accuracy and quality systems. Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation work, supervised by Dr. Carmen Charlton.  - title: Publications
+          Trained in clinical laboratory science across hematology, microbiology, biochemistry, and transfusion medicine, with a focus on diagnostic accuracy and quality systems. Received the DRiVE Conference Innovation Award (2025) for HIV diagnostic algorithm validation work, supervised by Dr. Carmen Charlton.
+  - title: Publications
     layout: list
     content:
       - layout: top-middle
