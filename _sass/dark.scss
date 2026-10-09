@@ -1,15 +1,29 @@
 .dark {
-  background-color: #222;
-  color: #e6e6e6;
-}
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-color: #cbd5e1;
+  --heading-color: #f8fafc;
+  --border-color: #334155;
+  --primary-color: #34d399;
+  --primary-hover: #6ee7b7;
+  --primary-light: rgba(52, 211, 153, 0.1);
+  --primary-border: #059669;
 
-.dark {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
   mark {
-    color: #222;
-    background-color: #e6e6e6;
+    color: #34d399;
+    background-color: rgba(52, 211, 153, 0.15);
+    border-color: #059669;
+
+    &:hover {
+      background-color: #059669;
+      color: #ffffff;
+    }
   }
 
   a {
-    color: #477dca;
+    color: var(--primary-color);
   }
 }

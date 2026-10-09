@@ -7,11 +7,10 @@
   height: 100%;
   border-radius: inherit;
   z-index: -1;
-  box-shadow: inset 0 0 0 35px #333;
-  -webkit-transform: scale3d(0.9, 0.9, 1);
-  transform: scale3d(0.9, 0.9, 1);
-  -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
-  transition: box-shadow 0.3s, transform 0.3s;
+  background: var(--primary-color, #10b981);
+  box-shadow: inset 0 0 0 35px var(--primary-color, #10b981);
+  transform: scale3d(0.92, 0.92, 1);
+  transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
 }
 
 .button {
@@ -35,43 +34,50 @@
 }
 
 .button--round-l {
-  border-radius: 40px;
+  border-radius: 50%;
 }
 
 .button.button--sacnite {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   min-width: 0;
   padding: 0;
-  color: #fff;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
+  color: #ffffff;
+  transition: color 0.3s, transform 0.3s ease;
+
+  i {
+    line-height: 48px;
+    font-size: 20px;
+  }
 }
 
 .button--sacnite:hover {
-  color: #333;
+  color: var(--primary-color, #10b981);
+  transform: translateY(-3px);
 }
 
 .button--sacnite:hover::before {
-  box-shadow: inset 0 0 0 2px #333;
-  -webkit-transform: scale3d(1, 1, 1);
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--primary-color, #10b981);
   transform: scale3d(1, 1, 1);
 }
 
 .dark {
   .button--sacnite::before {
-    box-shadow: inset 0 0 0 35px #e6e6e6;
+    background: var(--primary-color, #34d399);
+    box-shadow: inset 0 0 0 35px var(--primary-color, #34d399);
   }
 
   .button.button--sacnite {
-    color: #222;
+    color: #0f172a;
   }
 
   .button--sacnite:hover {
-    color: #e6e6e6;
+    color: var(--primary-color, #34d399);
   }
 
   .button--sacnite:hover::before {
-    box-shadow: inset 0 0 0 2px #e6e6e6;
+    background: transparent;
+    box-shadow: inset 0 0 0 2px var(--primary-color, #34d399);
   }
 }
