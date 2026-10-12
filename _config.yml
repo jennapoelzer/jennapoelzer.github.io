@@ -81,8 +81,7 @@ content:
       - layout: top-middle
         border: weak
         title: Bioinformatic tools for microbiome analysis - from raw sequences to biological insights
-        link: https://doi.org/10.3389/fmicb.2026.1913362
-        link_text: View Publication
+        paper_link: https://doi.org/10.3389/fmicb.2026.1913362
         quote: >
           Frontiers in Microbiology, 2026
         description: |
@@ -90,8 +89,9 @@ content:
       - layout: top-middle
         border: weak
         title: "BASys2: a next-generation bacterial genome annotation system"
-        link: https://doi.org/10.1093/nar/gkaf360
-        link_text: View Publication
+        paper_link: https://doi.org/10.1093/nar/gkaf360
+        link: https://basys2.ca
+        link_text: Check it out!
         quote: >
           Nucleic Acids Research, 2025
         description: |
@@ -99,16 +99,18 @@ content:
       - layout: top-middle
         border: weak
         title: "WEGAN: a web-based community ecology platform"
-        link: https://doi.org/10.3389/fevo.2025.1604480
-        link_text: View Publication
+        paper_link: https://doi.org/10.3389/fevo.2025.1604480
+        link: https://wegan.ca
+        link_text: Check it out!
         quote: >
           Frontiers in Ecology and Evolution, 2025
         description: |
           Gina P. Sykes, Louisa Normington, **Jenna Poelzer**, Shiyang Zhao, Dana Allen, Samuel Stuart, Eponine Oler, Komal Jot, Vasuk Gautam, Xin Zhao, Jianguo Xia, Glen C. Jickling, David S. Wishart
       - layout: top-middle
         title: "MiMeDB 2.0: the Human Microbial Metabolome Database for 2026"
-        link: https://doi.org/10.1093/nar/gkaf1272
-        link_text: View Publication
+        paper_link: https://doi.org/10.1093/nar/gkaf1272
+        link: https://mimedb.org/
+        link_text: Check it out!
         quote: >
           Nucleic Acids Research, 2026
         description: |
