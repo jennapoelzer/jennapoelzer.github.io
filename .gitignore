@@ -4,3 +4,6 @@
 _site
 *.code-workspace
 vendor
+.stub/
+Gemfile.local
+Gemfile.local.lock
