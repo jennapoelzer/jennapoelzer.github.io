@@ -149,13 +149,16 @@ content:
     content: | # this will include new lines to allow paragraphs
       **Programming & Analysis:** 
       <mark>R</mark>, 
+      <mark>Python</mark>, 
       <mark>Java</mark>,
       <mark>JavaScript</mark>,
       <mark>HTML</mark>,
       <mark>CSS</mark>,
       <mark>command-line/Bash</mark>,
       <mark>Git</mark>,
-      <mark>Docker</mark>
+      <mark>Docker</mark>,
+      <mark>Jira</mark>,
+      <mark>Claude Code</mark>
       
       **Bioinformatics:** genome annotation pipelines, full stack web-tool development, microbiome/community-scale analysis, diversity & ordination methods, data visualization
 
